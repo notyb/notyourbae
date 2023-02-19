@@ -1,0 +1,15 @@
+.table {
+  font-family: oswald;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid lightcoral;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: lightcoral;
+}
